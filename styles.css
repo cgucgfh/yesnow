@@ -629,3 +629,51 @@ section {
     margin-bottom: 1rem;
     color: var(--primary-light);
 }
+.email-card {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: var(--gradient);
+    color: white;
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.email-card span {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.email-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+}
+.contact-header {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact-header div {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: var(--gradient);
+    color: white;
+    border-radius: var(--radius-md);
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.contact-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.contact-header p {
+    font-size: 1.2rem;
+}
+.contact-header a {
+    margin-top: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
